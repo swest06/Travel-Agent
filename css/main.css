@@ -1,0 +1,95 @@
+/* .slider {
+  background: linear-gradient(
+    to bottom,
+    rgba(132, 0, 255, 0.5),
+    rgba(255, 0, 242, 0.5)
+  );
+  z-index: 10;
+} */
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* display: block; */
+  background: rgba(173, 2, 252, 0.6);
+}
+
+.slider .btn {
+  margin-top: 20px;
+  opacity: 0.8;
+  letter-spacing: 0.15rem;
+}
+
+.slide-btn {
+  border: 2px solid black;
+  /* background-color: transparent; */
+  background-color: rgba(13, 71, 161, 0.1);
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 6px 6px 3px 0px rgba(0, 0, 0, 0.16);
+  letter-spacing: 0.1rem;
+  transition: color ease-in-out 0.25s, background-color ease-in-out 0.25s;
+}
+
+.slide-btn {
+  border-color: white;
+  color: white;
+}
+
+.slide-btn:hover {
+  background-color: rgba(13, 71, 161, 0.8);
+  color: white;
+}
+
+.slides .caption {
+  /* width: 50% !important; */
+}
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 12px;
+}
+
+.section-contact h5 {
+  margin-bottom: 30px;
+}
+
+#logo {
+  width: 160px !important;
+  height: 60px !important;
+}
+
+.navbar-fixed {
+  opacity: 0.93 !important;
+  letter-spacing: 0.15rem;
+}
+
+nav ul a:hover {
+  color: #ffa000 !important;
+  transition: color ease-in-out 0.25s !important;
+}
